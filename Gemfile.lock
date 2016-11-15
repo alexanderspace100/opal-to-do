@@ -1,0 +1,44 @@
+GIT
+  remote: git://github.com/opal/opal-browser.git
+  revision: 2c0179927ea811df282c35e57d0512f6a2d3b8e3
+  specs:
+    opal-browser (0.2.0)
+      opal
+      paggio
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.2)
+    haml (4.0.7)
+      tilt
+    hike (1.2.3)
+    opal (0.10.3)
+      hike (~> 1.2)
+      sourcemap (~> 0.1.0)
+      sprockets (~> 3.1)
+      tilt (>= 1.4)
+    opal-haml (0.4.2)
+      haml
+      opal (~> 0.10.0)
+    opal-rspec (0.3.0.beta2)
+      opal (>= 0.6.0, < 1.0.0)
+    paggio (0.2.6)
+    rack (2.0.1)
+    sourcemap (0.1.1)
+    sprockets (3.7.0)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    tilt (2.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  opal
+  opal-browser!
+  opal-haml
+  opal-rspec
+
+BUNDLED WITH
+   1.13.5
